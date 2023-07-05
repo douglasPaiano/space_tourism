@@ -1,0 +1,323 @@
+@media screen and (min-width:320px) and (max-width:425px) {
+    body{
+        background-image: url("../assets/destination/background-destination-mobile.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .destination__png{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .destination__png h1{
+        color: var(--whitePrimary);
+        font-family: var(--fontBarlowCondensed);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4.26666vw;
+        line-height: 5.06666vw;
+        letter-spacing: 2.7px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .destination__png span{
+        opacity: 0.25;
+        padding-right: 18px;
+        font-weight: 700;
+    }
+    .destination__png img{
+        position: relative;
+        max-width: 170px;
+        max-height: 170px;
+        padding-top: 8.53333vw;
+    }
+    .select__planet{
+        display: flex;
+        flex-direction: row;
+        column-gap: 26px;
+        justify-content: center;
+        padding-top: 6.9333vw;
+        padding-bottom: 8.26666vw;
+    }
+    .disabled{
+        font-family: var(--fontBarlowCondensed);
+        font-style: normal;
+        color: var(--whiteSecundary);
+        font-weight: 400;
+        font-size: 3.73333vw;
+        line-height: 4.5333vw;
+        letter-spacing: 2.3625px;
+        text-transform: uppercase;        
+        padding-bottom: 2.1333vw; 
+        border-bottom: 0.8vw solid transparent;
+    }
+    .select__planet input{
+        display: none;
+    }
+    .disabled:hover{
+        color: var(--whitePrimary);
+        border-color: var(--whitePrimary);
+        transition: 0.3s ease;
+        opacity: 0.5;
+    }
+    .active{
+        border-color: var(--whitePrimary);
+    }
+    .destination__description h1{
+        font-family: var(--fontBelle);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14.933334vw;
+        line-height: 17.06666vw;
+        text-align: center;
+        text-transform: uppercase;
+        color: var(--whitePrimary);
+    }
+    .destination__description p{
+        font-family: var(--fontBarlow);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4vw;
+        line-height: 6.6666vw;
+        text-align: center;
+        color: var(--whiteSecundary);        
+        border-bottom: 1px solid var(--middleBlue);
+        padding-bottom: 8.5333vw;
+        margin: 0 6.4vw 8.5333vw 6.4vw;
+    }
+    .destination__info{
+        display: flex;
+        flex-direction: column;
+        row-gap: 8.53333vw;
+    }
+    .destination__info h1{
+        font-family: var(--fontBelle);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 7.4666vw;
+        line-height: 8.5333vw;        
+        text-align: center;
+        text-transform: uppercase;
+        color: var(--whitePrimary);
+    }
+    .destination__info h2{
+        font-family: var(--fontBarlowCondensed);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.7333vw;
+        line-height: 4.5333vw;
+        text-align: center;
+        letter-spacing: 0.629999vw;
+        text-transform: uppercase;
+        color: var(--whiteSecundary);
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:768px) {
+    body{
+        background-image: url(../assets/destination/background-destination-tablet.jpg);
+        background-repeat: no-repeat;
+    }
+    .destination__png h1{
+        color: var(--whitePrimary);
+        font-size: 20px;
+        font-family: var(--fontBarlowCondensed);
+        font-weight: 400;
+        letter-spacing: 3.375px;
+        text-transform: uppercase;
+        padding: 40px 0 60px 0;
+    }
+    .destination__png span{
+        font-weight: 700;
+        opacity: 0.25;
+        padding: 0 19px 0 38.5px;
+    }
+    .destination__png img{
+        display: flex;
+        padding: 0 234px 53px 234px;
+    }
+    .select__planet{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 35px;
+    }
+    .disabled{
+        color: var(--whiteSecundary);
+        font-size: 16px;
+        font-family: var(--fontBarlowCondensed);
+        font-weight: 400;
+        letter-spacing: 2.7px;
+        text-transform: uppercase;
+        padding-bottom: 12px;
+        border-bottom: 3px solid transparent;
+    }
+    .select__planet label:hover{
+        color: var(--whitePrimary);
+        border-color: var(--whitePrimary);
+        transition: 0.3s ease;
+        opacity: 0.5;
+    }
+    .active{
+        border-color: var(--whitePrimary);
+    }
+    .select__planet input{
+        display: none;
+    }
+    .select__planet .disabled{
+        padding-bottom: 12px;
+    }
+    .destination__description h1{
+        color: var(--whitePrimary);
+        font-size: 80px;
+        font-family: var(--fontBelle);
+        font-weight: 400;
+        padding-bottom: 8px;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 32px;
+    }
+    .destination__description p{
+        color: var(--whiteSecundary);
+        font-size: 16px;
+        font-family: var(--fontBarlow);
+        font-weight: 400;
+        line-height: 28px;
+        margin: 0 97.5px 49px 97.5px;
+        text-align: center;
+        padding-bottom: 49px;
+        border-bottom: 1px solid var(--middleBlue);
+    }
+    .destination__info{
+        display: flex;
+        flex-direction: row;
+        column-gap: 11px;
+        text-align: center;
+        justify-content: center;
+    }
+    .destination__info div{
+        width: 216px;
+    }
+    .destination__info h2{
+        color: var(--whiteSecundary);
+        font-size: 14px;
+        font-family: var(--fontBarlowCondensed);
+        font-weight: 400;
+        letter-spacing: 2.362px;
+        text-transform: uppercase;
+    }
+    .destination__info h1{
+        color: var(--whitePrimary);
+        font-size: 28px;
+        font-family: var(--fontBelle);
+        font-weight: 400;
+        text-transform: uppercase;
+        padding-top: 12px   ;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    body{
+        background-image: url(../assets/destination/background-destination-desktop.jpg);
+        background-repeat: no-repeat;
+    }
+    .destination__png h1{
+        padding: 76px 0 0 166.5px;
+        color: var(--whitePrimary);
+        font-size: 28px;
+        font-family: var(--fontBarlowCondensed);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 4.725px;
+        text-transform: uppercase;
+    }
+    .destination__png h1 span{
+        font-weight: 700;
+        opacity: 0.25;
+        padding-right: 28px;
+    }
+    .destination__png img{
+        padding: 97px 0 0 230px;
+    }
+    .select__planet{
+        padding: 174px 0 0 113px;
+    }
+    .disabled{
+        margin-right: 36px;
+        padding-bottom: 12px;
+        color: var(--whitePrimary);
+        font-size: 16px;
+        font-family: var(--fontBarlowCondensed);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2.7px;
+        text-transform: uppercase;
+        border-bottom: 3px solid transparent;
+    }
+    .select__planet label:hover{
+        color: var(--whitePrimary);
+        border-color: var(--whitePrimary);
+        transition: 0.3s ease;
+        opacity: 0.5;
+    }
+    .active{
+        border-color: var(--whitePrimary);
+    }
+    .select__planet input{
+        display: none;
+    }
+    .destination__description h1{
+        padding: 37px 0 14px 113px;
+        color: var(--whitePrimary);
+        font-size: 100px;
+        font-family: var(--fontBelle);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    .destination__description p{
+        padding-bottom: 54px;
+        margin: 0 164px 0 113px;
+        border-bottom: 1px solid var(--middleBlue);
+        color: var(--whiteSecundary);
+        font-size: 18px;
+        font-family: var(--fontBarlow);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+    }
+    .destination__info{
+        display: flex;
+        flex-direction: row;
+        column-gap: 79px;
+        padding: 28px 0 0 113px;
+    }
+    .destination__info h2{
+        padding-bottom: 12px;
+        color: var(--whiteSecundary);
+        font-size: 14px;
+        font-family: var(--fontBarlowCondensed);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2.362px;
+        text-transform: uppercase;       
+    }
+    .destination__info h1{
+        color: var(--whitePrimary);
+        font-size: 28px;
+        font-family: var(--fontBelle);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+}

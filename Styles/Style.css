@@ -1,0 +1,15 @@
+:root{
+    /* fontes */
+    --fontBelle: 'Bellefair', serif;
+    --fontBarlow: 'Barlow', sans-serif;
+    --fontBarlowCondensed: 'Barlow Condensed', sans-serif;
+
+    /* cores */
+    --whitePrimary: #ffffff;
+    --whiteSecundary: #D0D6F9;
+    --darkBlue: #0b0d17;
+    --middleBlue: #383b4b;
+    --menuBackground: rgb(255, 255, 255, 0.04);
+    --whitePrimaryOpacity05: rgb(255, 255, 255 , 0.5);
+}
+
